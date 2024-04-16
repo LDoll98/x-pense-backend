@@ -1,8 +1,6 @@
 package com.laborsoftware.xpense.service;
 
-import com.laborsoftware.xpense.domain.UserTimecard;
 import com.laborsoftware.xpense.domain.WeeklyTimecard;
-import com.laborsoftware.xpense.interfaces.IWeeklyTimecardService;
 import com.laborsoftware.xpense.repository.WeeklyTimecardRepository;
 import jakarta.transaction.Transactional;
 import org.slf4j.Logger;
@@ -14,7 +12,7 @@ import java.util.Optional;
 
 @Service
 @Transactional
-public class WeeklyTimecardService implements IWeeklyTimecardService {
+public class WeeklyTimecardService implements ICrudService<WeeklyTimecard, Long> {
 
     Logger logger = LoggerFactory.getLogger(WeeklyTimecardService.class);
 
