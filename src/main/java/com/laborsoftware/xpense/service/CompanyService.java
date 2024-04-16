@@ -2,6 +2,7 @@ package com.laborsoftware.xpense.service;
 
 import com.laborsoftware.xpense.domain.Company;
 import com.laborsoftware.xpense.repository.CompanyRepository;
+import com.laborsoftware.xpense.service.crud.ICrudService;
 import jakarta.transaction.Transactional;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

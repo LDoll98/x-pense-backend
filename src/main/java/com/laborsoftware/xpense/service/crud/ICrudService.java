@@ -1,4 +1,4 @@
-package com.laborsoftware.xpense.service;
+package com.laborsoftware.xpense.service.crud;
 
 import com.laborsoftware.xpense.domain.ApplicationUser;
 
